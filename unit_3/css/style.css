@@ -3,12 +3,31 @@ body{
 	font-family: Helvetica;
 }
 
-h1 {
-	color: #5cc2a1;
-}
 
 
 img.wjogger {
 	width:1003px;
     height: 496px;
 }
+
+div {width: 125px;
+     
+     padding: 15px;
+     text-align: center;
+
+     background-color: #5cc2a1;
+     color: white;
+     }
+
+h1 {
+	color: #5cc2a1;
+}
+
+
+div.footer {
+     width:1003px;
+     height: 100px;
+     background-color: grey;
+     color: white;
+     }
+
