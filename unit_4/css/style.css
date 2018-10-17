@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:500,600,700,800,900|Quicksand:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,500i,600,700,800,900|Quicksand:300,400,500,700');
 
 
 * { margin:0; padding:0; box-sizing:border-box; }
@@ -10,17 +10,20 @@ body{
 	line-height:1.3;
 }
 
+/* -------------Navigation-------------- */
 nav { 
-      margin: 25px;
       text-align: center;
-    
-}
+      background-color: #ef7b4d;
+      padding: .8em;
+      margin-top: .5em;
+      
+    }
 
 nav a { 
-        color:#555656;
+        color: white;
         text-decoration: none;
         font-size: 1.1em;
-        font-weight: 500;
+        font-weight: 400;
         padding-right: 10px;
         padding-left: 10px;
         
@@ -31,20 +34,67 @@ nav a:hover {
 
 }
 
-h1 {
+/* -------------End Navigation-------------- */
+
+h2 {
     font-family: Montserrat, Helvetica, arial, sans-serif;
-    font-wi
+    font-weight: 400;
 }
 
 section {
-    padding: 5em 0;
+    padding: 2em 0;
 }
+
+/* ----------------Footer-------------- */
 footer {
-     background-color: grey;
-     color: white;
+     background-color: #2d2d2d;
+     color: #ef7b4d;
+     padding-top: 1em;
+     padding-bottom: 2em;
+
 }
+footer a {text-decoration: none;
+          color: white;
+
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #5cc2a1;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #adaaa8;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #2d2d2d;
+    margin-left: 2.6em;
+    padding: 20px;
+    width: 60%;
+
+}
+
+/* -------------End Footer-------------- */
+
 #intro {
-    background: url(../images/jogger.png);
+    background: url(../images/jogger-2.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 90vh;
@@ -55,4 +105,24 @@ footer {
      background-color: #5cc2a1;
      color: white;
      text-decoration:none;
+
 }
+
+/* -----------------Sandwich--------------- */
+.sandwich {
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 4em;
+    padding-left: 4em;
+}
+
+
+
+.story {
+    font-family: Montseratt;
+    font-style: italic;
+    color: #ef7b4d;
+    text-align: center;
+    
+}
+/* --------------End Sandwich------------ */
