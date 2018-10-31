@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,500i,600,700,800,900|Quicksand:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,500i,600,700,800,900|Quicksand:300,400,500,700|Permanent+Marker');
 
 
 * { margin:0; padding:0; box-sizing:border-box; }
@@ -36,10 +36,51 @@ nav a {
 
 /* -------------End Navigation-------------- */
 
+#intro {
+    background: url(../images/jogger-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+h1 {
+  font-family: Montserrat, Helvetica, arial, sans-serif;
+  font-weight: 600;
+  font-size: 2em;
+  color: #ef7b4d;
+}
+
+.tag {
+  font-family: Quicksand, sans-serif;
+  font-weight: 300;
+  font-size: 2em;
+  color: #3d3d3d;
+  margin-bottom: 5em;
+}
+
+
+.cta {
+	display:inline-block;
+     padding: 15px;
+     background-color: #5cc2a1;
+     color: white;
+     text-decoration: none;
+     margin-top: .5em;
+
+}
+
+.herotext {
+    margin: 12% 0% 0% 15%;
+}
+
+
+
 h2 {
-    font-family: Montserrat, Helvetica, arial, sans-serif;
+    font-family: Permanent Marker, cursive, Montserrat, Helvetica, arial, sans-serif;
     font-weight: 400;
     margin-bottom: .8em;
+    font-size: 2em;
+    color: #424242;
 }
 
 section {
@@ -97,27 +138,15 @@ input[type=submit]:hover {
 
 /* -------------End Footer-------------- */
 
-#intro {
-    background: url(../images/jogger-2.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 90vh;
-}
-.cta {
-	display:inline-block;
-     padding: 15px;
-     background-color: #5cc2a1;
-     color: white;
-     text-decoration:none;
 
-}
 
 /* -----------------Sandwich--------------- */
 #sandwich {
-    
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     padding: 4em;
+    /*background-color: #f7f7f7;*/
 
 }
 
@@ -143,13 +172,14 @@ input[type=submit]:hover {
   padding-right: 2%;
   display: inline-block;
 
+
 }
 
 #icon {
   float:left;
   margin-right: 5%;
   margin-top: -1em;
-}
+  }
 
 
 /* ------End Features----- */
@@ -158,16 +188,58 @@ input[type=submit]:hover {
  /* background: #222;
   color: #fff;*/
   overflow: auto;
+  
 
 }
 
 
 .box {
   
-  float:left;
-  width: 49%;
+  float: right;
+  width: 28%;
   padding-left: 3em;
   
+}
+
+.box1 {
+  position: relative;
+  float:left;
+  width: 70%;
+  
+  
+}
+
+.water {
+  outline: 1px solid #bababa;
+  width: 90%;
+  margin-left: 4em;
+  display: block;
+  height: auto;
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
+  width: 90%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #5cc2a1;
+  margin-left: 4em;
+}
+
+.box1:hover .overlay {
+  opacity: .7;
+}
+
+
+ul { line-height: 2.42em;
+     
+     margin-top: 3em;
 }
 
 .clearfix::after{
