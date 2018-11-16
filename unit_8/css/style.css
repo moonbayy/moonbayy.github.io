@@ -11,6 +11,10 @@ body{
 }
 
 /* -------------Navigation-------------- */
+
+
+
+
 nav { 
 
       text-align: center;
@@ -80,14 +84,14 @@ h1 {
 h2 {
     font-family: Permanent Marker, cursive, Montserrat, Helvetica, arial, sans-serif;
     font-weight: 400;
-    margin-bottom: .8em;
-    font-size: 2em;
+    margin-bottom: .2em;
+    font-size: 1.8em;
 
     
 }
 
 section {
-    padding: 4em 0;
+    padding: 1.8em 0;
 }
 
 
@@ -190,7 +194,7 @@ input[type=submit]:hover {
 #icon {
   float:left;
   margin-right: 5%;
-  margin-top: -1em;
+  margin-bottom: 1em;
   }
 
 
@@ -233,7 +237,7 @@ input[type=submit]:hover {
 
 
 
-ul { line-height: 2.42em;
+ul { line-height: 2em;
      
      /*margin-top: 3em;*/
 }
@@ -244,6 +248,11 @@ ul { line-height: 2.42em;
   display: block;
 }
 
+#ham-icon {
+  
+  display: none;
+  
+}
 
 /* --------------Media Queries------------ */
 
@@ -251,16 +260,137 @@ ul { line-height: 2.42em;
 
 
 @media only screen and (max-width: 1024px) {
+
+
 #intro {
    
     height: 60vh;
 }
 
+
+
 .story {
     width: 100%;
 }
+
+.herotext {
+    margin: 7% 0% 0% 8%;
+}
+
+#icon {
+  width: 25%;
+  margin-bottom: 4em;
+  }
+
+.water {
+  width: 38em;
+  
+}
+
+
+ul { display:none;
+}
+}
+
+@media only screen and (max-width: 900px) {
+
+#ham-icon {
+    display: block;
     
+  }
+
+nav a {
+    float: none;
+    display: none;
     
+}
+
+
+
+nav:hover a {
+    display: block;
+  }
+
+
+
+.herotext {
+  font-size: 13px;
+}
+
+#icon {
+  display:none;
+}
+
+.d1 {
+   background-color: #5cc2a1;
+   color: white;
+   font-size: 1em;
+   padding: 1em;
+   height: 33vh;
+   display: inline-block;
+   
+
+}
+
+
+.d2 {
+   background-color: #333;
+   color: white;
+   padding: 1em;
+   height: 33vh;
+   
+
+}
+
+
+.d3 {
+   background-color: #5cc2a1;
+   color: white;
+   padding: 1em;
+   height: 33vh;
+
+}
+
+}
+
+@media only screen and (max-width: 480px) {
+
+  
+      
+
+
+#intro {
+  background: url(../images/mobile-jogger.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+}
+
+
+.herotext {
+  font-size: 11px;
+}
+#sandwich {
+    padding: 1em;
+    
+}
+
+.water {
+  width: 18em;
+  height: auto;
+}
+
+ul { display:none;
+}
+
+section {
+    padding: 1em 0;
+}
+
+
+
+
+
 }
 
 
