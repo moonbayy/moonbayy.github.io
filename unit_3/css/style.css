@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:500,600,700,800,900|Quicksand:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500, 500i,600,700,800,900|Quicksand:300,400,500,700');
 
 
 * { margin:0; padding:0; box-sizing:border-box; }
@@ -31,16 +31,18 @@ nav a:hover {
 
 }
 
-h1 {
-    font-family: Montserrat, Helvetica, arial, sans-serif;
-    font-wi
+h2 {
+    font-family: Montserrat;
+    font-weight: 500;
 }
+
+
 
 section {
     padding: 5em 0;
 }
 footer {
-     background-color: grey;
+     background-color: #282828;
      color: white;
 }
 #intro {

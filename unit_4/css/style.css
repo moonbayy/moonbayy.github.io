@@ -31,7 +31,6 @@ nav a {
 
 /*nav a:hover {
         color: #5cc2a1;
-
 }*/
 
 /* -------------End Navigation-------------- */
@@ -44,8 +43,6 @@ h2 {
 section {
     padding: 2em 0;
 }
-
-
 
 /* ----------------Footer-------------- */
 footer {
@@ -127,7 +124,4 @@ input[type=submit]:hover {
     text-align: center;
     
 }
-
-
-
 /* --------------End Sandwich------------ */
