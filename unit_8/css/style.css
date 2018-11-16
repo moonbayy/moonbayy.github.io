@@ -45,7 +45,7 @@ nav a {
     background: url(../images/jogger-2.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 90vh;
+    height: 70vh;
 }
 
 h1 {
@@ -264,7 +264,7 @@ ul { line-height: 2em;
 
 #intro {
    
-    height: 60vh;
+    height: 50vh;
 }
 
 
@@ -312,9 +312,20 @@ nav:hover a {
   }
 
 
+#intro {
+   
+    height: 40vh;
+}
+
 
 .herotext {
   font-size: 13px;
+
+}
+
+#sandwich {
+    padding: .8em;
+    
 }
 
 #icon {
@@ -356,24 +367,65 @@ nav:hover a {
 @media only screen and (max-width: 480px) {
 
   
-      
-
-
-#intro {
+  #intro {
   background: url(../images/mobile-jogger.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 40vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30vh;
 }
 
 
 .herotext {
   font-size: 11px;
+  margin: 11% 0% 0% 8%;
 }
+
 #sandwich {
     padding: 1em;
     
 }
+
+
+
+.drops {
+
+  float: none;
+  display: block;
+  margin-bottom: 0em;
+}
+
+
+
+#icon {
+  float:none;
+  margin-right: 5%;
+  display: block;
+  margin-bottom: 0em;
+  
+  }
+
+
+.d1 {
+   width: 100%;
+   
+
+}
+
+
+.d2 {
+   width: 100%;
+   
+
+}
+
+
+.d3 {
+   width: 100%;
+
+}
+
+
+
 
 .water {
   width: 18em;
